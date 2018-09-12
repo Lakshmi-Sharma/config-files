@@ -1,0 +1,6 @@
+[alias]
+	lgb = log --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset'
+	lg = log --graph --all --pretty=format:'%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) %C(cyan)<%an>%Creset'
+	br = branch
+	co = checkout
+	st = status
